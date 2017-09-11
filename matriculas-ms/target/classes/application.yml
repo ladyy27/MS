@@ -1,0 +1,25 @@
+server:
+  port: ${server_port:3333}
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: ${eureka_url:http://eureka:8761/eureka/}
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+spring:
+  application:
+    name: matriculas-ms
+  devtools:
+    remote:
+      secret: mysecret
+
+management:
+  security:
+    enabled: false

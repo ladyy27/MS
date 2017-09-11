@@ -1,0 +1,12 @@
+tesis/pkg_CLASES/CategoriaCurso.class
+tesis/MatriculasMS/MatriculasMsController.class
+tesis/pkg_CLASES/RegistroNotas.class
+tesis/pkg_CLASES/Matriculas.class
+tesis/pkg_SESSIONS/MatriculasFacade.class
+tesis/pkg_CLASES/Cursos.class
+tesis/pkg_CLASES/Estudiantes.class
+tesis/pkg_DATOS/conexionBD.class
+tesis/MatriculasMS/MatriculasMsApplication.class
+tesis/pkg_CLASES/Tutor.class
+tesis/pkg_CLASES/Periodo.class
+tesis/MatriculasMS/Config.class

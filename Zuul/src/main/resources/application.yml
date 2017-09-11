@@ -1,0 +1,22 @@
+#ignoredServices: '*'
+# Spring properties
+# Service registers under this name
+#url: http://localhost:2222/greeting/
+spring:
+  application:
+     name: zuul  # nombre asignado para Zuul
+zuul:
+  routes:
+    matriculas:
+      path: /matriculas/**
+      serviceId: matriculas-ms
+      stripPrefix: false
+# Acceso a Eureka
+eureka:
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://eureka:8761/eureka/
+server:
+  port: 8080   # HTTP (Tomcat) port
+
